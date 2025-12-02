@@ -12,12 +12,6 @@ This project implements a local AI agent that answers retail analytics questions
 6. **Synthesizer**: Formats answers according to the required format hint
 7. **Repair Loop**: Attempts to fix SQL errors or invalid outputs up to 2 times
 
-## DSPy Optimization
-
-I optimized the **Router** component using basic DSPy patterns:
-- Before optimization: ~80% accuracy on classification tasks
-- After optimization: ~95% accuracy on classification tasks
-
 ## Trade-offs and Assumptions
 
 1. **CostOfGoods**: Approximated as 70% of UnitPrice when not available in the database
